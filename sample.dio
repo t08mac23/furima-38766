@@ -13,7 +13,7 @@
                 <mxCell id="95" value="nickname&#10;&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="94">
                     <mxGeometry y="26" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="96" value="email&#10;&#10;password&#10;&#10;family_name&#10;&#10;first_name&#10;&#10;family_name_kana&#10;&#10;first_name_kana&#10;&#10;birthday&#10;&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="94">
+                <mxCell id="96" value="email&#10;&#10;encrypted_password&#10;&#10;family_name&#10;&#10;first_name&#10;&#10;family_name_kana&#10;&#10;first_name_kana&#10;&#10;birthday&#10;&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="94">
                     <mxGeometry y="56" width="160" height="194" as="geometry"/>
                 </mxCell>
                 <mxCell id="124" style="edgeStyle=none;rounded=1;html=1;entryX=1.013;entryY=0.423;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERone;endFill=0;startSize=3;endSize=20;targetPerimeterSpacing=0;strokeWidth=3;" edge="1" parent="1" source="98" target="96">
