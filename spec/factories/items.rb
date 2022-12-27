@@ -1,6 +1,5 @@
 FactoryBot.define do
   factory :item do
-    image          {Faker::Lorem.sentence}
     item_name      {Faker::Lorem.sentence}
     description    {Faker::Lorem.sentence}
     category_id         {Faker::Number.between(from: 2, to: 11)}
@@ -10,5 +9,7 @@ FactoryBot.define do
     delivery_date_id    {Faker::Number.between(from: 2, to: 4)}
     price               {Faker::Number.between(from: 300, to: 9999999)}
     association :user
+
+    image { Rack::Test::UploadedFile.new(File.join(Rails.root, 'spec/fixtures/タスク着手順序.png'))}
   end
 end
