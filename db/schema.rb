@@ -61,11 +61,6 @@ ActiveRecord::Schema.define(version: 2023_01_05_031910) do
     t.index ["user_id"], name: "index_items_on_user_id"
   end
 
-  create_table "order_deliveries", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "orders", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.bigint "item_id", null: false
