@@ -18,9 +18,7 @@ const pay = () => {
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     payjp.createToken(expiryElement).then((response) => {
-      console.log(response)
       if (response.error) {
-        // return false
       } else {
         const token = response.id;
         const renderDom = document.getElementById("charge-form"); 
